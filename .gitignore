@@ -1,0 +1,11 @@
+# system
+.DS_Store
+.vscode
+
+# npm
+node_modules
+build
+
+# composer
+vendor
+lib
