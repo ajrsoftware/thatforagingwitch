@@ -10,6 +10,7 @@ class Site extends Timber\Site
         add_filter('timber/twig', [$this, 'add_to_twig']);
         add_action('init', [$this, 'register_post_types']);
         add_action('init', [$this, 'register_taxonomies']);
+        add_filter('use_block_editor_for_post', '__return_false');
         parent::__construct();
     }
     /** This is where you can register custom post types. */
