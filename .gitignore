@@ -9,3 +9,14 @@ build
 # composer
 vendor
 lib
+
+# Ignore everything
+/*
+
+!wp-content
+wp-content/*
+
+# Ignore all themes except specified ones
+!wp-content/themes
+wp-content/themes/*
+!wp-content/themes/thatforagingwitch
