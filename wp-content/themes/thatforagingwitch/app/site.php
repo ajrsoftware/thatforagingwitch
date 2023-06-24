@@ -100,3 +100,5 @@ class Site extends Timber\Site
     }
 
 }
+
+new Site();
