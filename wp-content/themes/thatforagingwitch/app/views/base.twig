@@ -3,11 +3,11 @@
 
 	{% include 'html-header.twig' %}
 
-	<body class="antialiased font-sans {{ body_class }}">
+	<body class="antialiased font-sans bg-gray text-white {{ body_class }}">
 
 		{% include 'components/header.twig' %}
 
-		<main class='container mx-auto'>
+		<main class='container mx-auto px-6 2xl:px-0 mb-12 2xl:mb-16 prose-base prose-h1:font-serif prose-h2:font-serif prose-h3:font-serif'>
 			{% block content %}
 				<p>Sorry, no content</p>
 			{% endblock %}
