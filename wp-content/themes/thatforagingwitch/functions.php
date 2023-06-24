@@ -14,4 +14,7 @@ $lumberjack->bootstrap();
 require_once('app/routes.php');
 require_once('app/include/acf.php');
 require_once('app/site.php');
+require_once('app/assets.php');
 
+
+add_filter('timber_context', [$lumberjack, 'addToContext']);

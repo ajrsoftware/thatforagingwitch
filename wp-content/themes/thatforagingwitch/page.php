@@ -22,7 +22,7 @@ class PageController extends Controller
     {
         $context = Timber::get_context();
         $page = new Page();
-
+        
         $context['post'] = $page;
         $context['title'] = $page->title;
         $context['content'] = $page->content;
