@@ -3,6 +3,6 @@
 define('THEME_NAME', 'thatforagingwitch');
 define('THEME_VERSION', '1.0');
 
-include('app/bootstrap.php');
-include('app/include/acf.php');
-include('app/Site.php');
+require_once('app/bootstrap.php');
+require_once('app/include/acf.php');
+require_once('app/Site.php');
