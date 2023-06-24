@@ -12,5 +12,6 @@ $lumberjack = $app->make(Lumberjack::class);
 $lumberjack->bootstrap();
 
 require_once('app/routes.php');
+require_once('app/include/acf.php');
 require_once('app/site.php');
 
