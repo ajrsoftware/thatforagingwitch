@@ -3,14 +3,12 @@
     "version": "1.0.0",
     "author": "Ashley Redman <ashley.redman@ajrsoftware.com>",
     "scripts": {
-        "build": "tsc app/ts/app.ts --outfile build/app.js && postcss app/css/app.css -o build/app.css",
+        "build": "",
         "types": "tsc --noEmit",
         "format": "prettier app/"
     },
     "devDependencies": {
         "@types/node": "^20.3.1",
-        "postcss": "^8.4.24",
-        "postcss-cli": "^10.1.0",
         "prettier": "^2.8.8",
         "typescript": "^5.1.3"
     }

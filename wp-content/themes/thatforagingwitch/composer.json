@@ -24,13 +24,14 @@
             ]
         }
     },
+    "require": {
+        "composer/installers": "^1.0",
+        "rareloop/lumberjack-core": "^6.0",
+        "wpackagist-plugin/advanced-custom-fields": "^6.1"
+    },
     "config": {
         "allow-plugins": {
             "composer/installers": true
         }
-    },
-    "require": {
-        "timber/timber": "^1.22",
-        "wpackagist-plugin/advanced-custom-fields": "^6.1"
     }
 }
