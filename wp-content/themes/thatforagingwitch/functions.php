@@ -5,7 +5,7 @@ use App\Http\Lumberjack;
 define('THEME_NAME', 'thatforagingwitch');
 define('THEME_VERSION', '1.0');
 
-require_once('path/to/composer/vendor/autoload.php');
+require_once('vendor/autoload.php');
 $app = require_once('bootstrap/app.php');
 
 $lumberjack = $app->make(Lumberjack::class);
