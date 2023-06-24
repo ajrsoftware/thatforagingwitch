@@ -8,7 +8,9 @@ module.exports = {
             transparent: 'transparent',
             white: '#f5f5f5',
             black: '#000000',
-            gray: '#333333'
+            gray: '#333333',
+            purple: '#9146FF',
+            ivory: '#f4eee0'
         },
         fontFamily: {
             sans: ['Inter var', ...defaultTheme.fontFamily.sans],

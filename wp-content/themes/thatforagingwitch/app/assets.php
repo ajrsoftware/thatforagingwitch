@@ -28,6 +28,11 @@ add_action('wp_enqueue_scripts', 'tfw_enqueue');
 add_filter('woocommerce_enqueue_styles', 'tfw_woo_dequeue_styles');
 function tfw_woo_dequeue_styles($enqueue_styles)
 {
+
+    if (is_single()) {
+        unset($enqueue_styles['woocommerce-general']); // Remove the gloss    
+    }
+
     // unset($enqueue_styles['woocommerce-general']); // Remove the gloss
     // unset($enqueue_styles['woocommerce-layout']); // Remove the layout
     // unset($enqueue_styles['woocommerce-smallscreen']); // Remove the smallscreen optimisation
